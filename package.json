@@ -1,6 +1,10 @@
 {
   "name": "fadedness.css",
   "version": "0.0.0",
+  "type": "module",
   "description": "现代化的 CSS 样式重置库",
-  "author": "mikufade"
+  "author": "mikufade",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
 }
