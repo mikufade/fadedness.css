@@ -5,6 +5,8 @@
   "description": "现代化的 CSS 样式重置库",
   "author": "mikufade",
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
   }
 }
