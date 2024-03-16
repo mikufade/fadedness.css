@@ -4,3 +4,7 @@
   box-sizing: border-box;
   line-height: 1.15;
 }
+
+:where(html) {
+  font-family: Tahoma, Helvetica, Arial, '\5b8b\4f53', sans-serif;
+}
