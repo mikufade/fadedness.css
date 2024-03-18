@@ -37,3 +37,8 @@
   margin: 0;
   font-family: Consolas, Monaco, 'Andale Mono', monospace;
 }
+
+:where(a) {
+  color: inherit;
+  text-decoration: inherit;
+}
