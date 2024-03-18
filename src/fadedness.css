@@ -42,3 +42,38 @@
   color: inherit;
   text-decoration: inherit;
 }
+
+:where(b, strong) {
+  font-weight: inherit;
+}
+
+:where(dfn, em, cite, i, var) {
+  font-style: inherit;
+}
+
+:where(small, sub, sup) {
+  font-size: inherit;
+}
+
+:where(s, u) {
+  text-decoration: inherit;
+}
+
+:where(code, kbd, samp) {
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+}
+
+:where(mark) {
+  background-color: inherit;
+  color: inherit;
+}
+
+:where(ruby > rt) {
+  font-size: inherit;
+  text-align: inherit;
+}
+
+q::after,
+q::before {
+  content: '';
+}
