@@ -22,3 +22,7 @@
   font-weight: inherit;
   margin: 0;
 }
+
+:where(blockquote, dl, dd, figure, ) {
+  margin: 0;
+}
