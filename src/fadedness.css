@@ -81,3 +81,7 @@ q::before {
 :where(iframe) {
   border: none;
 }
+
+:where(del, ins) {
+  text-decoration: inherit;
+}
