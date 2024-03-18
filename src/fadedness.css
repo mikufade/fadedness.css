@@ -9,15 +9,10 @@
   font-family: Tahoma, Helvetica, Arial, '\5b8b\4f53', sans-serif;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+:where(body) {
   margin: 0;
+}
+
+:where(address) {
+  font-style: inherit;
 }
