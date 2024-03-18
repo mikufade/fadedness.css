@@ -23,6 +23,6 @@
   margin: 0;
 }
 
-:where(blockquote, dl, dd, figure, ) {
+:where(blockquote, dl, dd, figure, p) {
   margin: 0;
 }
