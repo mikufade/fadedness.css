@@ -94,3 +94,9 @@ q::before {
 :where(th) {
   font-weight: inherit;
 }
+
+:where(fieldset) {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
