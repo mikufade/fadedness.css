@@ -104,3 +104,8 @@ q::before {
 :where(summary) {
   list-style: none;
 }
+
+:where(dialog) {
+  padding: 0;
+  border: none;
+}
